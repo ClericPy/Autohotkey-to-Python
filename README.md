@@ -1,4 +1,4 @@
-﻿
+#Not compatible with x64
 #Introduce:
 
 ### Choose the version and download : 2.x or 3.x
@@ -18,4 +18,4 @@ pyld=12345
 print(getahk(u'pyld'))
 ```
 
-# 选择对应版本并将文件下载到"\PythonXX\"根目录下(似乎不只是sys.path),"Lib\site-packages"路径似乎经常出问题，用法如上，也可以参考过期文件夹中的内容做一些额外的事情，打包成exe的时候记得带上dll文件
+# 选择对应版本并将文件下载到"\PythonXX\"根目录下(似乎不只是sys.path),"Lib\site-packages"路径似乎经常出问题，用法如上，也可以参考过期文件夹中的内容做一些额外的事情，打包成exe的时候记得带上dll文件。不支持64位python，郁闷
