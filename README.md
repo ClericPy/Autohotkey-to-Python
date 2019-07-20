@@ -1,10 +1,10 @@
-#Not compatible with x64
-#Introduce:
 
-### Compatible : 2.x or 3.x
-### Move the two files AutoHotkey.dll and ahk.py to the path "X:\PythonXX\" (not sys.path)
-### PS: You can do some extra things by downloading the "overdue" files
-### Always make sure that: do not forget the 'u' before strings.
+
+## this repository is abandoned, please using the better choice https://github.com/spyoungtech/ahk
+
+
+
+> Not compatible with python2
 
 ##Demo:
 
@@ -17,5 +17,4 @@ pyld=12345
 ''')
 print(getahk(u'pyld'))
 ```
-
-# 将文件AutoHotkey.dll 和 ahk.py下载到"\PythonXX\"根目录下(似乎不只是sys.path),"Lib\site-packages"路径似乎经常出问题，用法如上，也可以参考过期文件夹中的内容做一些额外的事情，打包成exe的时候记得带上dll文件。64位python需要去找64位的dll，暂时只提供32位的
+getahk not support 64-bit autohotkey.dll
